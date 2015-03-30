@@ -54,6 +54,7 @@
     "dimmer",
     "modal",
     "transition",
-    "rating"
+    "rating",
+    "tab"
   ]
 }

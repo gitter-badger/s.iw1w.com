@@ -12,28 +12,57 @@
 </head>
 
 <body>
-  <div class="ui padded grid">
-    <div class=" row">
-      <div class="column">
+  <div class="ui grid">
+    <div class="row header">
+      <div class="column three wide">
+        <h1 style="font-size: 1.5em;"><a href="/">爱玩一玩</a></h1></div>
+      <div class="thirteen wide column">
         <div class="ui secondary pointing menu">
-          <h1 class="item"><a href="/">LOGO</a></h1>
-          <div class="right menu">
-            <a class="active item">
-              <i class="home icon"></i> Home
-            </a>
-            <a class="item">
-              <i class="mail icon"></i> Messages
-            </a>
-            <a class="item">
-              <i class="user icon"></i> Friends
-            </a>
-          </div>
+          <a class="active item">
+            <i class="home icon"></i> 首页
+          </a>
+          <a class="item">
+            <i class="mail icon"></i> 找游戏
+          </a>
+          <a class="item">
+            <i class="user icon"></i> 充值
+          </a>
+          <a class="item">
+            <i class="user icon"></i> 活动
+          </a>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="ten wide column"></div>
-      <div class="six wide column"></div>
+    <div class="row sixteen wide column">
+      <div class="right floated four wide column action-panel">
+        <div class="ui top attached tabular menu">
+          <a class="active item" data-tab="first">登录</a>
+          <a class="item" data-tab="second">注册</a>
+        </div>
+        <div class="ui bottom attached active tab form segment" data-tab="first">
+            <div class="field">
+              <label>用户名</label>
+              <input type="text" placeholder="用户名" />
+            </div>
+            <div class="field">
+              <label>密码</label>
+              <input type="password" placeholder="密码" />
+            </div>
+            <div class="inline field">
+              <div class="ui checkbox">
+                <input type="checkbox">
+                <label>记住密码</label>
+              </div>
+            </div>
+            <button class="ui submit button">登陆</button>
+        </div>
+        <div class="ui bottom attached tab segment" data-tab="second">
+          Second
+        </div>
+      </div>
+      <div class="slider">
+        <div class="item" style="background: url('http://p5.yx-s.com/t012e1ca57d5571f290.jpg') no-repeat 50% 0%; width: 100%; height: 390px;"></div>
+      </div>
     </div>
   </div>
   <script src="js/jquery.min.js" type="text/javascript"></script>
