@@ -78,7 +78,7 @@ gulp.task('default', ['image', 'css', 'js', 'page', 'font']);
 
 gulp.task('watch', ['default'], function() {
   gulp.watch([proj_config.img], ['image']);
-  gulp.watch([proj_config.css], ['css']);
-  gulp.watch([proj_config.js], ['js']);
+  gulp.watch([proj_config.css, 'asset/less/**/*'], ['css']);
+  gulp.watch([proj_config.js, 'asset/js/**/*'], ['js']);
   gulp.watch([proj_config.page], ['page']);
 });
