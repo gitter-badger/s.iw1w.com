@@ -1,6 +1,6 @@
 {
   "name": "s.iw1w.com",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "爱玩一玩",
   "scripts": {
     "prestart": "npm install; cd semantic && ../node_modules/.bin/gulp build; cd ../; ./node_modules/.bin/gulp; ./node_modules/.bin/webpack",
